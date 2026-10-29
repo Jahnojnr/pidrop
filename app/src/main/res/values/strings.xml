@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PIDROP</string>
+    <string name="welcome_eyebrow">GOODS DELIVERY</string>
+    <string name="welcome_title">A simpler way to move goods.</string>
+    <string name="welcome_body">PIDROP is being built to connect people sending goods with independent delivery providers.</string>
+    <string name="get_started">Get started</string>
+    <string name="role_title">How would you like to use PIDROP?</string>
+    <string name="role_intro">Choose the option that fits what you want to do.</string>
+    <string name="role_customer">Send a package</string>
+    <string name="role_customer_description">For customers sending goods</string>
+    <string name="role_rider">Deliver with PIDROP</string>
+    <string name="role_rider_description">For independent riders and drivers</string>
+    <string name="customer_placeholder_title">Customer account</string>
+    <string name="customer_placeholder_description">Customer account registration and booking are not available in this version.</string>
+    <string name="rider_placeholder_title">Rider account</string>
+    <string name="rider_placeholder_description">Rider registration and delivery jobs are not available in this version.</string>
+    <string name="placeholder_note">You can go back and choose a different option.</string>
+    <string name="welcome_action">About PIDROP</string>
+    <string name="welcome_note">Account registration and delivery booking are not available yet.</string>
+    <string name="about_title">About PIDROP</string>
+    <string name="about_intro">A delivery marketplace for Nigeria.</string>
+    <string name="about_body">PIDROP is being designed to bring customers and independent riders together for goods deliveries.</string>
+    <string name="about_note">This early version introduces the app. Registration, booking and delivery services are not yet available.</string>
+    <string name="back">Back</string>
+</resources>
