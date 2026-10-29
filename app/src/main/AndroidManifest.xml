@@ -3,7 +3,7 @@
     <application
         android:name=".PidropApplication"
         android:allowBackup="false"
-        android:icon="@drawable/pidrop_mark"
+        android:icon="@drawable/pidrop_logo_icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.Pidrop.Starting">

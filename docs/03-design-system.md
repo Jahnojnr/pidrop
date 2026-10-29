@@ -4,7 +4,7 @@ One system across both Android roles and admin web; implement once with platform
 
 ## Identity and colour
 
-Logo brief: flat, distinctive symbol left and PIDROP wordmark right, orange/charcoal on white; no tagline in any logo lockup, no gradients, 3D imagery or motion trails. No logo asset has been approved or created. Validate legibility at small sizes and monochrome use before approval.
+The user supplied a horizontal PIDROP logo image with orange parcel/speed symbol and dark wordmark, with no tagline. The Android app uses a locally bundled crop of that image and a symbol-only crop for small launcher/splash contexts. This supplied direction supersedes the earlier no-motion-trail logo proposal for this prototype; final brand approval, a clean vector master, small-size legibility and monochrome variants still need review. Avoid adding gradients or unrelated illustrations to the wider UI.
 
 | Token | Value | Use |
 |---|---|---|
