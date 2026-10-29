@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="216dp"
+    android:height="216dp"
+    android:viewportWidth="216"
+    android:viewportHeight="216">
+    <!-- Horizontal provisional lockup, kept inside the system splash icon safe area. -->
+    <group android:translateX="49" android:translateY="92" android:scaleX="0.8" android:scaleY="0.8">
+        <path android:fillColor="#FF6B00" android:pathData="M20,2 C10.6,2 3,9.6 3,19 C3,28.4 10.6,36 20,36 C29.4,36 37,28.4 37,19 C37,9.6 29.4,2 20,2 Z" />
+        <path android:fillColor="#171717" android:pathData="M11,17 L22,17 L22,12 L30,20 L22,28 L22,23 L11,23 Z" />
+    </group>
+    <!-- PIDROP wordmark in flat paths: no fonts or network assets needed. -->
+    <path android:fillColor="#171717" android:fillType="evenOdd" android:pathData="M88,99 L96,99 Q101,99 101,105 Q101,111 96,111 L92,111 L92,118 L88,118 Z M92,102 L92,108 L96,108 Q98,108 98,105 Q98,102 96,102 Z" />
+    <path android:fillColor="#171717" android:pathData="M104,99 L108,99 L108,118 L104,118 Z" />
+    <path android:fillColor="#171717" android:fillType="evenOdd" android:pathData="M112,99 L119,99 Q127,99 127,108.5 Q127,118 119,118 L112,118 Z M116,102.5 L116,114.5 L119,114.5 Q123,114.5 123,108.5 Q123,102.5 119,102.5 Z" />
+    <path android:fillColor="#171717" android:fillType="evenOdd" android:pathData="M130,99 L138,99 Q143,99 143,105 Q143,109 140,110 L144,118 L139.5,118 L136,111 L134,111 L134,118 L130,118 Z M134,102 L134,108 L138,108 Q140,108 140,105 Q140,102 138,102 Z" />
+    <path android:fillColor="#171717" android:fillType="evenOdd" android:pathData="M154,98.5 C160,98.5 163,102.5 163,108.5 C163,114.5 160,118.5 154,118.5 C148,118.5 145,114.5 145,108.5 C145,102.5 148,98.5 154,98.5 Z M154,102 C151,102 149,104.5 149,108.5 C149,112.5 151,115 154,115 C157,115 159,112.5 159,108.5 C159,104.5 157,102 154,102 Z" />
+    <path android:fillColor="#171717" android:fillType="evenOdd" android:pathData="M166,99 L174,99 Q179,99 179,105 Q179,111 174,111 L170,111 L170,118 L166,118 Z M170,102 L170,108 L174,108 Q176,108 176,105 Q176,102 174,102 Z" />
+</vector>

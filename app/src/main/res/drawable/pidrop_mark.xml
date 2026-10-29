@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+    <!-- Provisional, flat mark; the final identity requires brand approval. -->
+    <path android:fillColor="#FF6B00" android:pathData="M20,2 C10.6,2 3,9.6 3,19 C3,28.4 10.6,36 20,36 C29.4,36 37,28.4 37,19 C37,9.6 29.4,2 20,2 Z" />
+    <path android:fillColor="#171717" android:pathData="M11,17 L22,17 L22,12 L30,20 L22,28 L22,23 L11,23 Z" />
+</vector>
