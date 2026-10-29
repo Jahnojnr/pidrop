@@ -6,6 +6,12 @@ PIDROP is a planned Nigerian goods-delivery marketplace. This repository now con
 
 The `app/` module uses Kotlin, Jetpack Compose/Material 3, Navigation Compose, Hilt, ViewModel and coroutines. It contains a native system splash (dismissed when the first frame is ready), a welcome/onboarding screen, role selection, separate customer and rider placeholder destinations, and the existing About screen. Get started opens role selection; both roles and the About screen support back navigation. The mark is a provisional vector pending brand approval; the logo has no tagline. No account, booking, payment, maps, location tracking, dispatch or backend integration is implemented. The local repository reports a build capability, not live service availability.
 
+### Download a test APK without Android Studio
+
+The **Android debug APK** GitHub Actions workflow builds a debug APK and runs unit tests on pushes and pull requests. On GitHub, open **Actions → Android debug APK**, select a successful run, and download the **PIDROP-debug-APK** artifact. Extract its ZIP and install `app-debug.apk` on an Android phone (Android 7.0/API 24 or newer). GitHub may require you to sign in to download artifacts. Artifacts expire after 14 days. This is a debug build for testing, not a production-signed release or a Play Store build. Only install artifacts from a run and repository you trust. Device installation may require allowing the browser or file manager to install apps from that source; you can turn that permission off afterward.
+
+The workflow does not run emulator/instrumented UI tests. A successful build does not establish that the app has been tested on a device.
+
 ### Setup and verification
 
 This scaffold has **not been compiled or run** in the current environment. It uses a provisional `com.pidrop.app` application ID, min SDK 24, compile/target SDK 35, JDK 17, Gradle wrapper 8.9, and the versions in `gradle/libs.versions.toml`; confirm application ID, supported devices and dependency compatibility before release. No production credentials are included.
