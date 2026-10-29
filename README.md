@@ -23,7 +23,7 @@ In Android Studio or an Android development environment:
 3. Run `./gradlew :app:assembleDebug :app:testDebugUnitTest` (on Windows use `gradlew.bat`). With an emulator or device connected, run `./gradlew :app:connectedDebugAndroidTest` for the navigation UI tests. Install and run the debug APK, then verify splash, navigation/back, screen sizes, large font and accessibility.
 4. Review dependency and tooling versions, app signing, application ID, logo and system bar behavior on supported devices before treating this foundation as approved.
 
-No emulator/device or native build was available in the audit sandbox. There is no basis yet to claim the app launches successfully, that tests pass, or that any integration works.
+The audit sandbox cannot run Android builds. GitHub Actions has successfully built the debug APK and run the unit tests; no emulator/device or instrumented UI run has yet verified that the app launches or navigation works. No integration is implemented.
 
 ## Project structure
 
