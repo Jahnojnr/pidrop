@@ -2,10 +2,15 @@
     <string name="app_name">PIDROP</string>
     <string name="welcome_eyebrow">GOODS DELIVERY</string>
     <string name="welcome_title">A simpler way to move goods.</string>
-    <string name="welcome_body">PIDROP is being built to connect people sending goods with independent delivery providers.</string>
+    <string name="welcome_body">PIDROP is being built to connect people sending goods with independent riders and drivers in Nigeria.</string>
+    <string name="welcome_for_title">Who is PIDROP for?</string>
+    <string name="welcome_customer_title">People sending goods</string>
+    <string name="welcome_customer_description">For customers arranging a delivery.</string>
+    <string name="welcome_rider_title">Independent riders and drivers</string>
+    <string name="welcome_rider_description">For delivery providers with a suitable vehicle.</string>
     <string name="get_started">Get started</string>
     <string name="role_title">How would you like to use PIDROP?</string>
-    <string name="role_intro">Choose the option that fits what you want to do.</string>
+    <string name="role_intro">Choose how you would like to get started.</string>
     <string name="role_customer">Send a package</string>
     <string name="role_customer_description">For customers sending goods</string>
     <string name="role_rider">Deliver with PIDROP</string>

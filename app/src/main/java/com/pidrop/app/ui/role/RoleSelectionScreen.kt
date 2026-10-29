@@ -38,12 +38,14 @@ fun RoleSelectionScreen(onBack: () -> Unit, onCustomer: () -> Unit, onRider: () 
         PidropRoleButton(
             label = stringResource(R.string.role_customer),
             description = stringResource(R.string.role_customer_description),
+            icon = R.drawable.ic_package_outline,
             onClick = onCustomer,
         )
         Spacer(Modifier.height(PidropSpacing.md))
         PidropRoleButton(
             label = stringResource(R.string.role_rider),
             description = stringResource(R.string.role_rider_description),
+            icon = R.drawable.ic_rider_outline,
             onClick = onRider,
         )
     }

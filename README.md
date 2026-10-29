@@ -4,7 +4,13 @@ PIDROP is a planned Nigerian goods-delivery marketplace. This repository now con
 
 ## Android foundation
 
-The `app/` module uses Kotlin, Jetpack Compose/Material 3, Navigation Compose, Hilt, ViewModel and coroutines. It contains a native system splash (dismissed when the first frame is ready), a welcome/onboarding screen, role selection, separate customer and rider placeholder destinations, and the existing About screen. Get started opens role selection; both roles and the About screen support back navigation. The mark is a provisional vector pending brand approval; the logo has no tagline. No account, booking, payment, maps, location tracking, dispatch or backend integration is implemented. The local repository reports a build capability, not live service availability.
+The `app/` module uses Kotlin, Jetpack Compose/Material 3, Navigation Compose, Hilt, ViewModel and coroutines. It contains a native system splash (dismissed when the first frame is ready), a welcome/onboarding screen, role selection, separate customer and rider placeholder destinations, and the existing About screen. Get started opens role selection; both roles and the About screen support back navigation. The app uses the logo image supplied for review, including a symbol-only crop for the system splash and launcher; the logo has no tagline. A production vector master and final brand approval are still needed. No account, booking, payment, maps, location tracking, dispatch or backend integration is implemented. The local repository reports a build capability, not live service availability.
+
+### Download a test APK without Android Studio
+
+The **Android debug APK** GitHub Actions workflow builds a debug APK, runs unit tests and compiles the instrumented UI-test APK on pushes and pull requests. On GitHub, open **Actions → Android debug APK**, select a successful run, and download the **PIDROP-debug-APK** artifact. Extract its ZIP and install `app-debug.apk` on an Android phone (Android 7.0/API 24 or newer). GitHub may require you to sign in to download artifacts. Artifacts expire after 14 days. This is a debug build for testing, not a production-signed release or a Play Store build. Only install artifacts from a run and repository you trust. Device installation may require allowing the browser or file manager to install apps from that source; you can turn that permission off afterward.
+
+The workflow does not run emulator/instrumented UI tests. A successful build does not establish that the app has been tested on a device.
 
 ### Setup and verification
 
@@ -17,7 +23,7 @@ In Android Studio or an Android development environment:
 3. Run `./gradlew :app:assembleDebug :app:testDebugUnitTest` (on Windows use `gradlew.bat`). With an emulator or device connected, run `./gradlew :app:connectedDebugAndroidTest` for the navigation UI tests. Install and run the debug APK, then verify splash, navigation/back, screen sizes, large font and accessibility.
 4. Review dependency and tooling versions, app signing, application ID, logo and system bar behavior on supported devices before treating this foundation as approved.
 
-No emulator/device or native build was available in the audit sandbox. There is no basis yet to claim the app launches successfully, that tests pass, or that any integration works.
+The audit sandbox cannot run Android builds. GitHub Actions has successfully built the debug APK and run the unit tests; no emulator/device or instrumented UI run has yet verified that the app launches or navigation works. No integration is implemented.
 
 ## Project structure
 

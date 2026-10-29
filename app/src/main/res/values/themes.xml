@@ -1,7 +1,7 @@
 <resources>
     <style name="Theme.Pidrop.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">#FFFFFF</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/pidrop_splash</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/pidrop_logo_icon</item>
         <item name="postSplashScreenTheme">@style/Theme.Pidrop</item>
     </style>
 
